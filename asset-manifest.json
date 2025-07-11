@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/DeFi-Dashboard/static/css/main.2e049774.css",
+    "main.js": "/DeFi-Dashboard/static/js/main.a03a59a7.js",
+    "static/js/453.c1306014.chunk.js": "/DeFi-Dashboard/static/js/453.c1306014.chunk.js",
+    "static/media/logo_transparent.png": "/DeFi-Dashboard/static/media/logo_transparent.fd73179823dd96e333b3.png",
+    "index.html": "/DeFi-Dashboard/index.html",
+    "main.2e049774.css.map": "/DeFi-Dashboard/static/css/main.2e049774.css.map",
+    "main.a03a59a7.js.map": "/DeFi-Dashboard/static/js/main.a03a59a7.js.map",
+    "453.c1306014.chunk.js.map": "/DeFi-Dashboard/static/js/453.c1306014.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e049774.css",
+    "static/js/main.a03a59a7.js"
+  ]
+}
