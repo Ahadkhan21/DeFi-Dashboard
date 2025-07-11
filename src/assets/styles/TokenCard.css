@@ -1,0 +1,53 @@
+.token-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #1e1e1e;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  padding: 16px;
+  transition: box-shadow 0.3s;
+}
+
+.token-card:hover {
+  box-shadow: 0 0 15px rgba(255, 0, 122, 0.3);
+}
+
+.token-card img {
+  width: 48px;
+  height: 48px;
+}
+
+.token-card-name {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.token-card-price {
+  font-size: 14px;
+  color: #a0a0a0;
+}
+
+.token-card-change.positive {
+  color: #16A34A;
+  font-weight: bold;
+}
+
+.token-card-change.negative {
+  color: #DC2626;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  .token-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .token-card img {
+    width: 36px;
+    height: 36px;
+  }
+}

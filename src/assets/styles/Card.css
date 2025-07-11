@@ -1,0 +1,63 @@
+.card {
+  background: rgba(30, 30, 30, 0.9);
+  border: 1px solid #333333;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 24px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px rgba(255, 0, 122, 0.1);
+}
+
+.section-heading {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 8px;
+}
+
+.token-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+input[type="number"],
+select {
+  background: #333333;
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+input[type="number"]:focus,
+select:focus {
+  outline: 2px solid #FF007A;
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    padding: 16px;
+  }
+
+  .token-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.recharts-responsive-container {
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  .recharts-responsive-container {
+    height: 180px;
+  }
+}

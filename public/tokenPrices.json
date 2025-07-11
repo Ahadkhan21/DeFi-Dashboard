@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ethereum",
+    "symbol": "eth",
+    "name": "Ethereum",
+    "image": "https://assets.coingecko.com/coins/images/279/large/ethereum.png",
+    "current_price": 2766.12,
+    "price_change_percentage_24h": 2.45
+  },
+  {
+    "id": "uniswap",
+    "symbol": "uni",
+    "name": "Uniswap",
+    "image": "https://assets.coingecko.com/coins/images/12504/large/uniswap-uni.png",
+    "current_price": 6.80,
+    "price_change_percentage_24h": -1.20
+  },
+  {
+    "id": "chainlink",
+    "symbol": "link",
+    "name": "Chainlink",
+    "image": "https://assets.coingecko.com/coins/images/877/large/chainlink-new-logo.png",
+    "current_price": 14.25,
+    "price_change_percentage_24h": 3.75
+  },
+  {
+    "id": "aave",
+    "symbol": "aave",
+    "name": "Aave",
+    "image": "https://assets.coingecko.com/coins/images/12645/large/AAVE.png",
+    "current_price": 92.10,
+    "price_change_percentage_24h": 1.60
+  },
+  {
+    "id": "usd-coin",
+    "symbol": "usdc",
+    "name": "USD Coin",
+    "image": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png",
+    "current_price": 1.00,
+    "price_change_percentage_24h": 0.00
+  }
+]
